@@ -1,0 +1,23 @@
+{
+  "name": "tattooshop-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w style/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KlepiT-cmd/tattooshop-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KlepiT-cmd/tattooshop-html/issues"
+  },
+  "homepage": "https://github.com/KlepiT-cmd/tattooshop-html#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
