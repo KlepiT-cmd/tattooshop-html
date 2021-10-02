@@ -1,11 +1,9 @@
-/* Reset */
 * {
   margin: 0;
   padding:0;
   box-sizing: border-box;
 }
 
-/* Main Styling */
 html,body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
@@ -24,7 +22,6 @@ p {
   margin: 10px 0;
 }
 
-/* Utility Classes */
 .container {
   margin: auto;
   max-width: 1100px;
@@ -83,12 +80,14 @@ p {
   font-size: 40px;
 }
 
-/* Padding */
+.l-heading h1 {
+  padding-top: 10px;
+}
+
 .py-1 { padding: 10px 0; }
 .py-2 { padding: 20px 0; }
 .py-3 { padding: 30px 0; }
 
-/* Navbar */
 #navbar {
   background: #333;
   color: #fff;
@@ -125,7 +124,6 @@ p {
   color: #f7c08a;
 }
 
-/* Showcase */
 #showcase {
   background: url('../dist/css/image_resources/UiltMp8.jpg') no-repeat center center/cover;
   height: 600px;
@@ -147,7 +145,6 @@ p {
   line-height: 1.7em;
 }
 
-/* Home Info */
 #home-info {
   height: 450px;
 }
@@ -172,7 +169,6 @@ p {
   padding-bottom: 30px;
 }
 
-/* Features */
 .box {
   float: left;
   width: 33.3%;
@@ -184,7 +180,6 @@ p {
   margin-bottom: 10px;
 }
 
-/* About Info */
 #about-info .info-right {
   float: right;
   width: 50%;
@@ -204,7 +199,6 @@ p {
   min-height: 100%;
 }
 
-/* Testimonials */
 #testimonials {
   height: 100%;
   background: url('../dist/css/image_resources/56811270_2389365104633389_480095387126857728_n.jpg') no-repeat center center/cover;
@@ -231,7 +225,6 @@ p {
   border-radius: 50%;
 }
 
-/* Contact Form */
 #contact-form .form-group {
   margin-bottom: 20px;
 }
@@ -258,7 +251,6 @@ p {
   border-color: #f7c08a;
 }
 
-/* Footer */
 #main-footer {
   text-align: center;
   background: #444;
