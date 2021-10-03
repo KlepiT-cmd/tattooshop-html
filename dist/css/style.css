@@ -198,7 +198,7 @@ p {
 #contact-form textarea {
   width: 100%;
   padding: 10px;
-  border: 1px #ddd solid; }
+  border: #ddd 1px solid; }
 
 #contact-form textarea {
   height: 200px; }
