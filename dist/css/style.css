@@ -3,15 +3,18 @@
   padding: 0;
   box-sizing: border-box; }
 
-html, body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em; }
 
 a {
   color: #333;
   text-decoration: none; }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   padding-bottom: 20px; }
 
 p {
@@ -216,3 +219,46 @@ p {
   background: #444;
   color: #fff;
   padding: 20px; }
+
+@media (max-width: 768px) {
+  #navbar .logo {
+    float: none;
+    text-align: center; }
+  #navbar ul,
+  #navbar ul li {
+    float: none; }
+  #navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px; }
+  #showcase {
+    height: 100%; }
+  #showcase .showcase-content {
+    padding-top: 70px;
+    padding-bottom: 30px; }
+  #showcase .showcase-content h1 {
+    font-size: 40px; }
+  #home-info {
+    height: 550px; }
+  #home-info .info-img {
+    display: none; }
+  #home-info .info-content {
+    float: none;
+    width: 100%; }
+  .box {
+    float: none;
+    width: 100%; }
+  #about-info .info-right,
+  #about-info .info-left {
+    float: none;
+    width: 100%; }
+  #testimonials .testimonial img {
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%; }
+  #about-info .info-right {
+    margin-top: 30px; }
+  .l-heading {
+    text-align: center; }
+  #contact-info .box {
+    border-bottom: #444 dotted 1px; } }

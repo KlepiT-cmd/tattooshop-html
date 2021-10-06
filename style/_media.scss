@@ -1,51 +1,52 @@
-@import 'variables';
-
-#navbar .logo {
+@media (max-width: 768px) {
+  #navbar .logo {
     float: none;
     text-align: center;
   }
-  
-  #navbar ul, #navbar ul li {
+
+  #navbar ul,
+  #navbar ul li {
     float: none;
   }
-  
+
   #navbar ul li a {
     padding: 5px;
     border-bottom: $footer-border dotted 1px;
   }
-  
+
   #showcase {
     height: 100%;
   }
-  
+
   #showcase .showcase-content {
     padding-top: 70px;
     padding-bottom: 30px;
   }
 
   #showcase .showcase-content h1 {
-      font-size: 40px;
+    font-size: 40px;
   }
-  
+
   #home-info {
     height: 550px;
   }
-  
+
   #home-info .info-img {
     display: none;
   }
-  
+
   #home-info .info-content {
     float: none;
     width: 100%;
   }
-  
+
   .box {
     float: none;
     width: 100%;
   }
-  
-  #about-info .info-right, #about-info .info-left {
+
+  #about-info .info-right,
+  #about-info .info-left {
     float: none;
     width: 100%;
   }
@@ -56,11 +57,11 @@
     margin-right: 20px;
     border-radius: 50%;
   }
-  
+
   #about-info .info-right {
     margin-top: 30px;
   }
-  
+
   .l-heading {
     text-align: center;
   }
@@ -68,3 +69,4 @@
   #contact-info .box {
     border-bottom: $footer-border dotted 1px;
   }
+}
