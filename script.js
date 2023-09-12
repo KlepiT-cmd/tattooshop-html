@@ -1,4 +1,4 @@
-const imageFolder = "image_resources/";
+const imageFolder = "dist/css/image_resources";
 let currentIndex = 0;
 let imageNames = [];
 
@@ -38,10 +38,10 @@ function fetchImageNames() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       const hardcodedImageNames = [
-        "11402281_1664475733789000_8984763305709497640_o.jpg",
-        "11406683_1664476323788941_6947558052860505770_o.jpg",
-        "56811270_2389365104633389_480095387126857728_n.jpg",
-        "138970362_1976788055811755_6081487037281797155_n.jpg",
+        "dist/css/image_resources/11402281_1664475733789000_8984763305709497640_o.jpg",
+        "dist/css/image_resources/11406683_1664476323788941_6947558052860505770_o.jpg",
+        "dist/css/image_resources/56811270_2389365104633389_480095387126857728_n.jpg",
+        "dist/css/image_resources/138970362_1976788055811755_6081487037281797155_n.jpg",
       ];
       resolve(hardcodedImageNames);
     }, 1000);
