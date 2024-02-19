@@ -1,4 +1,4 @@
-const imageFolder = "/dist/css/image_resources";
+const imageFolder = "/dist/css/image_resources/";
 let currentIndex = 0;
 let imageNames = [];
 
